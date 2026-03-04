@@ -1,0 +1,70 @@
+
+nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    min-height: 50px;
+   
+}
+
+
+body {
+    
+    color: darkgreen;
+    font: "comic sans ms";
+   
+}
+
+.big-text{
+    font-style: italic;
+    font-size: 40px;
+    text-align: center;
+}
+
+.homepage-images {
+    display: flex;
+    flex-wrap: nowrap;
+    
+    justify-content: center;
+    gap: 20px;
+    width: 100%;
+    
+}
+
+.homepage-images img {
+
+    max-height: 400px;
+    width: auto;
+    
+}
+
+.top-band {
+    position: fixed;
+    z-index: -1;
+    top:0;
+    left:0;
+    width: 100%;
+    height: 50px;         
+    background-color: darkgreen;
+}
+
+/*align items I found to not work because it leaves a gap at the left and top margins??? Reminding myself to find out why later
+*/
+.bottom-band {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 80px;          
+    background-color: darkgreen;
+}
+
+
+#story {
+    display:block;
+}
+
+#description {
+    overflow-y: scroll;
+    display:block;
+}
