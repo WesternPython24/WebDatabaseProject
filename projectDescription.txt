@@ -1,3 +1,0 @@
-The project will be a website for creative writing or tabletop role-playing games. It will provide organization tools for different aspects of world building, such as locations, characters, and world history. The website will allow a game master or author to invite other accounts to their world, who may be granted permissions to view files, edit files, or create their own characters. In addition, the author may optionally make files public, allowing accounts not directly invited to search for inspiration. The author will be able to add certain tags to that lets others find their public stories! 
-
-From what I understand its not illegal to do this for non-specific role playing games because of the same DMCA safe harbor laws that websites like Youtube is protected by!
