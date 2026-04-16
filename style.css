@@ -41,7 +41,7 @@ body {
 }
 
 
-.story-form {
+#story-form {
     
     display: flex;
     flex-direction: column;
@@ -56,7 +56,7 @@ body {
     margin-top: 20px;
 }
 
-.login-form {
+#login-form {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -70,7 +70,7 @@ body {
     margin-top: 20px;
 }
 
-.register-form {
+#register-form {
     display: flex;
     flex-direction: column;
     align-items: center;
