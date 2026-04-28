@@ -2,8 +2,8 @@ This website will help game masters and creative storytellers create a world and
 
 
 This is the Database design. It keeps track of everything from users, stories, characters, notes, permissions, etc
-![ERD](/Images/ERD.png "")
+![ERD](/public/Images/ERD.png "")
 
 
 This is the Relations in 3NF. The underlines represent keys, but i could not double underline on this software to differentiate between primary and foreign keys. 
-![Relations](/Images/Relations.png "")
+![Relations](/public/Images/Relations.png "")

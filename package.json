@@ -1,0 +1,28 @@
+{
+  "name": "project",
+  "version": "1.0.0",
+  "description": "This website will help game masters and creative storytellers create a world and invite others to this world. Different people can be invited and they will have set permissions to view/edit/add files. The author of a story will be able to make connections between different ideas/characters/locations.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WesternPython24/WebDatabaseProject.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/WesternPython24/WebDatabaseProject/issues"
+  },
+  "homepage": "https://github.com/WesternPython24/WebDatabaseProject#readme",
+  "dependencies": {
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "mysql2": "^3.22.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}
