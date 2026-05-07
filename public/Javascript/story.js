@@ -1,12 +1,32 @@
-let storyForm = document.getElementById('story-form');
-storyForm.addEventListener('submit', storySubmit)
+const storyForm = document.getElementById('story-form');
+if (storyForm) {
+    storyForm.addEventListener('submit', storySubmit);
+}
 
-function storySubmit(e) {
+async function storySubmit(e) {
     e.preventDefault();
-    const storyAttempt = {
-        title: document.getElementById("title").value,
-        description: document.getElementById("description").value,
-        public: document.getElementById("public").checked
+    
+    const title = document.getElementById("title").value;
+    const description = document.getElementById("description").value;
+    const isPublic = document.getElementById("public").checked;
+    
+    console.log("Story Attempt:", { title, description, isPublic });
+    try {
+        const response = await fetch('/story/createStory', {
+            method: 'POST',
+            headers: {'Content-Type': 'application/json'},
+            credentials: 'include',
+            body: JSON.stringify({ title, description, isPublic})
+
+        });
+    } catch (error) {
+        console.error("Error creating story:", error);
     }
-    console.log("Story Attempt:", storyAttempt)
+
+
+
+
+
+
+
 }

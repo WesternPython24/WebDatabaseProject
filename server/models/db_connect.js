@@ -1,5 +1,8 @@
-require('dotenv').config();
-const mysql = require('mysql2');
+
+import dotenv from 'dotenv'
+dotenv.config()
+import mysql from 'mysql2/promise'
+
 
 const con = mysql.createPool({
   host: process.env.MYSQL_HOST,
@@ -17,6 +20,5 @@ const query = (sql, binding) => {
   });
 };
 
-module.exports = {
-  query, con
+export  { con, query
 };
